@@ -1,0 +1,1 @@
+=IFNA(QUERY('Master Data Test'!$A$2:$R,"select A,B,C,D,E,F,G where L=TRUE and O=TRUE and P=TRUE and O=TRUE and M=TRUE"),"NO DEBIT")
