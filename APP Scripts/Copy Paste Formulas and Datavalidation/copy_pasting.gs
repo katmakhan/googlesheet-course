@@ -24,6 +24,9 @@ function addhelperFormulas()
     var lastrow=ss.getLastRow();
     var fillDownRange=ss.getRange(row_num,column_num,lastrow-1);
     ss.getRange("K2:R2").copyTo(fillDownRange);
+	ss.getRange("K2:R2").copyTo(fillDownRange, SpreadsheetApp.CopyPasteType.PASTE_DATA_VALIDATION);
+	
+	
     // templateRange.copyTo(targetRange, {formatOnly:true});
     // templateRange.copyTo(targetRange, SpreadsheetApp.CopyPasteType.PASTE_DATA_VALIDATION);
   }
