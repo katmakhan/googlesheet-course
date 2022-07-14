@@ -7,7 +7,7 @@ function onEditProject(e) {
 }
 ```
 ### Sample Function Code for addTimeStamp
-``` console
+``` javascript
 function addTimeStamp(e)
 {
 //paste code here
@@ -16,7 +16,7 @@ function addTimeStamp(e)
 ```
 
 ### Code for Generating time stamp
-``` console
+``` javascript
 var row=e.range.getRow();
 var col=e.range.getColumn();
 var startRow=2;

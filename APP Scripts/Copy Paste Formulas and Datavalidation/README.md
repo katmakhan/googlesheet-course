@@ -3,7 +3,7 @@
 Copy paste the data with certain constraints like datavalidation only, for enumerating the sheets with datavalidation
 
 ### Sample Code
-```console
+```javascript
 row_num=2;
 column_num=15;
 
