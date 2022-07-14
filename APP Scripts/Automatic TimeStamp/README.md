@@ -1,7 +1,7 @@
 # To generate time stamp function inside google sheets
 
 ### Sample Main Function code
-``` console
+``` javascript
 function onEditProject(e) {
 	addTimeStamp(e);
 }
@@ -10,7 +10,7 @@ function onEditProject(e) {
 ``` javascript
 function addTimeStamp(e)
 {
-//paste code here
+//paste code for generating time stamp
 }
 
 ```
@@ -24,6 +24,8 @@ var changingColumn=1;
 var timeStampColumn=6;
 var ws="Master Data";
 
+//Checking if the changing column is in the desired range of rows
+//Checking if the sheetname is also same
 if(col === changingColumn && row>=startRow && e.source.getActiveSheet().getName()==ws)
 {
 	var currentDate=new Date();
